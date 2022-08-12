@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e0806;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  backdrop-filter: blur(5px);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin-top: -3rem;
+  background: rgb(56 30 90 / 30%);
+}
+.menu {
+  
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav li {
+ padding: 1rem; 
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section#home {
+  background: linear-gradient(45deg, rgb(63 30 108 / 5%), rgb(39, 14, 47));
+  height: 80vh;
+}
+p {
+  font-size: 16px;
+}
+
+section#features {
+  height: 60vh;
+  background: #110d18;
+}
+
+section#pricing {
+  background: #130f1a;
+  padding: 1rem;
+}
+
+
+.container {
+  margin-top: 3rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  font-size: 22px;
+}
+
+.btns-container {
+  padding-top: 1rem;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.started {
+  background-color: #f91f1f;
+  color: #000;
+  font-weight: bold;
+}
+
+.discord {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #ccc;
+}
+
+.container-features {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  justify-content: center;
+}
+.feature {
+  height: 160px;
+  width: 280px;
+  background: #16111e;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 3rem;
+  border-radius: 1em;
+  border: 1px solid rgb(255 255 255 / 3%);
+  margin: 1rem;
+  font-size: 15px;
+}
+
+.pricing-plans {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.plan {
+  background: #1e1926;
+  margin: 5px;
+  padding: 1rem;
+}
+.plan h2 {
+  text-align: center;
+}
+.plan h1 {
+  text-align: center;
+}
+.plan ul {
+  padding: 2rem;
+  font-size: 14px;
+}
+.plan li {
+  padding: 5px;
+}
+.plan button {
+  background: ##ff0505;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+}
